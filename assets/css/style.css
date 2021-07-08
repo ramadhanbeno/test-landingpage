@@ -749,11 +749,11 @@ section {
   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
 }
 
-.services .icon {
+/* .services .icon {
   position: absolute;
   left: 20px;
   top: calc(50% - 30px);
-}
+} */
 
 .services .icon i {
   font-size: 64px;
