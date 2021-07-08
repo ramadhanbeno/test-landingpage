@@ -1612,3 +1612,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+.hsize1 {
+  min-height: 230px;
+}
