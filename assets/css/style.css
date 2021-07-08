@@ -1573,3 +1573,32 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.how-countdown {
+  background-color: #333333;
+  border-radius: 10px;
+  margin: 0px 18px 25px 18px;
+}
+
+.size2 {
+  width: 90px;
+  height: 100px;
+}
+
+.l1-txt1 {
+  font-family: Barlow-Medium;
+  font-size: 40px;
+  line-height: 1;
+  color: #fff;
+}
+
+.p-b-9 {
+  padding-bottom: 9px;
+}
+
+.s1-txt1 {
+  font-family: Barlow-Regular;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1;
+}
