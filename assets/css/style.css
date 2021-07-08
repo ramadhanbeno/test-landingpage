@@ -1270,7 +1270,7 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: rgba(30, 105, 141, 0.8);
   transition: ease-in-out 0.3s;
   color: #fff;
   display: inline-flex;
@@ -1279,7 +1279,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background: #1e698d;
 }
 
 .team .member .social i {
@@ -1359,7 +1359,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #c2d5db;
+  background: #789fbb;
   color: #fff;
 }
 
@@ -1561,7 +1561,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #c2d5db;
+  background: #131925;
   color: #fff;
   text-decoration: none;
 }
