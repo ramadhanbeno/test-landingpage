@@ -233,6 +233,7 @@
                 <p class="fst-italic">
                   We manages the amoeba environment which is more focused on maturity measurement of talent, with highly growth-supporting the best opportunities to grow fast and unleash their maximum potential.
                 </p>
+                <canvas id="myChart" style="width:100%;max-width:500px"></canvas>
                 <!-- <ul>
                   <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -1115,7 +1116,33 @@
 			// ex:  timeZone: "America/New_York"
 			//go to " http://momentjs.com/timezone/ " to get timezone
 		});
+
+    var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+    var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+    
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{
+          fill: false,
+          lineTension: 0,
+          backgroundColor: "rgba(0,0,255,1.0)",
+          borderColor: "rgba(0,0,255,0.1)",
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          yAxes: [{ticks: {min: 6, max:16}}],
+        }
+      }
+    });
 	</script>
+  
+   
+    
 <!--===============================================================================================-->
 
   <!-- Template Main JS File -->
