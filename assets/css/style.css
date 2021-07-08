@@ -1617,25 +1617,11 @@ section {
   min-height: 230px;
 }
 
-.bor1 {
-  border-radius: 18px;
-}
-.bg1 {
-  background-color: rgba(255,255,255,0.8);
-}
-.wsize1 {
-  max-width: 100%;
-  width: 880px;
-}
-.p-r-15 {
-  padding-right: 15px;
-}
-.p-l-15 {
-  padding-left: 15px;
-}
-.p-b-45 {
-  padding-bottom: 45px;
-}
-.p-t-175 {
-  padding-top: 175px;
+.flex-w {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: flex;
 }
