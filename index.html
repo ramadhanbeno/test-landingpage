@@ -257,6 +257,7 @@
                 <p>
                   We have iterated over 50% of procedures in this program and made some significant impact on Amoeba's experience in the innovation process. We are focused on improving the value generation parts, especially the value-meter .
                 </p>
+                <canvas id="myChart2" style="width:100%;max-width:500px"></canvas>
                 <!-- <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -330,11 +331,11 @@
 
         <div class="row" data-aos="zoom-out">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Live Streaming</h3>
+            <p> Lets grow come together and join</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#"><img src="assets/img/live.png" alt=""></a>
           </div>
         </div>
 
@@ -1088,8 +1089,8 @@
 			//go to " http://momentjs.com/timezone/ " to get timezone
 		});
 
-    var xValues = [50,60,70,80,90,100,110,120,130,140,150];
-    var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+    var xValues = [2017, 2018, 2019, 2020];
+    var yValues = [20, 35, 40, 58];
     
     new Chart("myChart", {
       type: "line",
@@ -1107,6 +1108,31 @@
         legend: {display: false},
         scales: {
           yAxes: [{ticks: {min: 6, max:16}}],
+        }
+      }
+    });
+
+    var xValues2 = ["IOT", "Management", "Application"];
+    var yValues2 = [20, 40, 70];
+    var barColors = [
+      "#b91d47",
+      "#00aba9",
+      "#2b5797",
+    ];
+
+    new Chart("myChart2", {
+      type: "pie",
+      data: {
+        labels: xValues2,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues2
+        }]
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Amoebas"
         }
       }
     });
