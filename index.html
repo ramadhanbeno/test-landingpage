@@ -915,6 +915,30 @@
 
   </main><!-- End #main -->
 
+  <!-- add feature -->
+  <script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 35,
+			endtimeHours: 18,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
@@ -949,6 +973,13 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!--===============================================================================================-->
+	<script src="assets/vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="assets/vendor/countdowntime/moment.min.js"></script>
+    <script src="assets/vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="assets/vendor/countdowntime/countdowntime.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
