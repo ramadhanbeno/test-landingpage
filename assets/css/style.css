@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #fc8129;
+  color: #789fbb;
   text-decoration: none;
 }
 
@@ -517,7 +517,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fd9042;
+  background: #1e698d;
   margin: 4px 10px;
 }
 
@@ -681,7 +681,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2a2c39;
+  background: #131925;
   padding: 80px 0;
 }
 
@@ -707,7 +707,7 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #1e698d;
+  background: #c2d5db;
 }
 
 .cta .cta-btn:hover {
@@ -1193,7 +1193,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #bd5102;
+  color: #131925;
   transition: 0.3s;
 }
 
