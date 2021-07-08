@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #8abca7;
+  color: #1e698d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #789fbb;
+  color: #869aa8;
   text-decoration: none;
 }
 
@@ -1332,7 +1332,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffecde;
+  background: rgba(30, 105, 141, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
