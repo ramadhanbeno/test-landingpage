@@ -711,7 +711,7 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #c2d5db;
+  background: #fab346;
 }
 
 .cta .cta-btn:hover {
@@ -1591,7 +1591,7 @@ section {
 }
 
 .l1-txt1 {
-  font-family: Barlow-Medium;
+  /* font-family: Barlow-Medium; */
   font-size: 40px;
   line-height: 1;
   color: #fff;
@@ -1602,7 +1602,7 @@ section {
 }
 
 .s1-txt1 {
-  font-family: Barlow-Regular;
+  /* font-family: Barlow-Regular; */
   font-size: 14px;
   color: #fff;
   line-height: 1;
