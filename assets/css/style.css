@@ -1611,6 +1611,8 @@ section {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
+  display: flex;
+  -webkit-flex-direction: column;
 }
 
 .hsize1 {
