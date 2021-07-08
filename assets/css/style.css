@@ -1616,9 +1616,9 @@ section {
   -webkit-flex-direction: column;
 }
 
-.hsize1 {
+/* .hsize1 {
   min-height: 230px;
-}
+} */
 
 .flex-w {
   -webkit-flex-wrap: wrap;
