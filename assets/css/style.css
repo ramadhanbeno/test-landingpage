@@ -1429,7 +1429,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #789fbb;
+  background: #1e698d;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1438,7 +1438,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #c2d5db;
+  background: rgba(30, 105, 141, 0.8);
 }
 
 @-webkit-keyframes animate-loading {
